@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&family=Taviraj&display=swap');
+@import url('./css/reset.css');
+
+:root {
+  /* ! Colores */
+  --color-primario: #191970;
+  --color-secundario: cyan;
+  --color-terciario: darkcyan;
+  /* --color-secundario: #1d537d; */
+  /* --color-terciario: #37688d; */
+  --bg-light: #f0f0f0;
+  --bg-dark: #141414;
+  --bg-blur: #ffffff66;
+  /* --bg-blur: #afeeeedd; */
+
+  /* ! Tipografías */
+  --tipo-principal: 'Taviraj', serif; /* ? Tipografía para el contenido */
+  --tipo-secundaria: 'Exo', sans-serif; /* ? Tipografía para titulos */
+}
+body {
+  background-color: var(--bg-light);
+
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+/* ============================================================ */
+/* =========================== MENU =========================== */
+/* ============================================================ */
+
+.menu {
+  padding: 1em 0.5em;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  background: var(--bg-light);
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.menu__controls {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__logo {
+  color: var(--color-primario);
+  font-size: 2em;
+  font-family: var(--tipo-secundaria);
+}
+.menu__links {
+  background: var(--bg-light);
+  width: 100%;
+  padding: 2.2em 0em;
+
+  position: absolute;
+  top: 5em;
+  z-index: 10;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1em;
+
+  transform: translateX(-100%);
+  opacity: 0;
+
+  transition: 0.5s transform ease-out, 0.3s opacity;
+}
+.menu__link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.menu__icon {
+  height: 100%;
+  width: 100%;
+}
+.menu__btn {
+  height: 3em;
+  width: 3em;
+
+  grid-row: 1/2;
+  grid-column: 2/-1;
+
+  transition: 0.3s transform ease-in-out;
+}
+.showMenu {
+  transform: translateX(0);
+  opacity: 1;
+}
+.hideBtn {
+  transform: scale(0);
+}
+.showBtn {
+  transform: scale(1);
+}
+
+/* ==================================================================== */
+/* =============================== HERO =============================== */
+/* ==================================================================== */
+
+.hero {
+  height: 88vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url('./assets/hero.jpg') center center;
+  background-size: cover;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero__content {
+  width: 17em;
+
+  margin: 2em;
+}
+.hero__text {
+  color: white;
+
+  text-shadow: 0 0 0.2em var(--color-secundario);
+
+  font-size: 2em;
+  line-height: 1.3em;
+  text-align: center;
+}
+.hero__btn {
+  margin: 2em;
+  padding: 0.5em 2em;
+
+  color: white;
+  background-color: var(--color-terciario);
+
+  border: 1px solid var(--color-secundario);
+  border-radius: 0.5em;
+
+  box-shadow: 0 0 0.6em var(--color-secundario);
+}
+.hero__btn:hover {
+  color: black;
+  background-color: var(--color-secundario);
+}
+
+/* ==================================================================== */
+/* ============================= SERVICES ============================= */
+/* ==================================================================== */

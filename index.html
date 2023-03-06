@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Security Atlas | Zero's World</title>
+  </head>
+  <body>
+    <header class="menu container">
+      <div class="menu__controls">
+        <a href="#" class="menu__logo">Security Atlas</a>
+
+        <button class="menu__btn menu__btn--open hideBtn showBtn" id="openBtn">
+          <svg
+            class="menu__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+          </svg>
+        </button>
+        <button class="menu__btn menu__btn--close hideBtn" id="closeBtn">
+          <svg
+            class="menu__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="menu__links" id="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#intro">Introducción</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#services">Servicios</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#about-us">Sobre nosotros</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#FAQ">Preguntas frecuentes</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contact-form">Contáctanos</a>
+        </li>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <article class="hero__content">
+          <h1 class="hero__text">
+            Los mejores artículos de seguridad del mundo
+          </h1>
+        </article>
+        <button class="hero__btn">Comprar productos</button>
+      </section>
+      <section class="intro" id="intro"></section>
+      <section class="services" id="services"></section>
+      <section class="stats" id="stats"></section>
+      <section class="about-us" id="about-us"></section>
+      <section class="FAQ" id="FAQ"></section>
+      <section class="contact-" id="contact-form"></section>
+    </main>
+
+    <footer>
+      <section class="quick-links"></section>
+      <div class="logo"></div>
+      <section class="social-media"></section>
+    </footer>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
