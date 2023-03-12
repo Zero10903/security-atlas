@@ -4,7 +4,7 @@
 
 ## ¿De qué se trata?
 
-La idea de este proyecto es crear una Landing Page con un diseño atractivo, minimalista y funcional.
+La idea de este proyecto es crear una _Landing Page_ con un diseño atractivo, minimalista y funcional.
 Esta web tendrá la temática de una empresa de seguridad **ficticia** cuyo objetivo es vender sus productos y exportarlos mundialmente.
 
 ## ¿Qué tecnologías son usadas en este proyecto?
@@ -15,6 +15,13 @@ El desafío en este caso es utilizar lo más básico de todo, por lo tanto, sól
 - CSS
 - JavaScript
 
+## Cómo aportar a este proyecto
+
+- Crea un fork
+- Clona el repositorio en tu directorio local
+- Haz tus cambios en una rama aparte
+- Sube los mismos a GitHub y haz un pull request
+
 ## Contáctame
 
 [Instagram][insta]
@@ -22,7 +29,7 @@ El desafío en este caso es utilizar lo más básico de todo, por lo tanto, sól
 
 ## Licencia
 
-La licencia usada en este proyecto es _MIT License_
+_MIT License_
 
 [insta]: https://www.instagram.com/_moonlight.zero_ 'Instagram'
 [gmail]: mailto:sam.alejandro.bustos@gmail.com?Subject=Contacted-from-github 'Gmail'
