@@ -218,3 +218,37 @@ body {
 .card__text {
   padding: 0.5em 0em 1em;
 }
+
+/* ================================================================= */
+/* ============================= STATS ============================= */
+/* ================================================================= */
+.stats {
+  height: 60vh;
+  width: 100%;
+
+  margin-top: 2em;
+  padding: 3em;
+
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 0.4em black;
+  background: linear-gradient(var(--color-primario), var(--color-terciario));
+}
+.stat__container {
+  margin: 0;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+.stat__title {
+  font-size: 1.4em;
+  margin-bottom: 0.3em;
+}
+.stat__text {
+  font-size: 0.9em;
+  font-style: italic;
+}
