@@ -251,7 +251,7 @@ body {
   text-shadow: 0 0 0.4em black;
   background: linear-gradient(var(--color-primario), var(--color-terciario));
 }
-.stat__container {
+.stats__container {
   margin: 0;
 
   height: 100%;
@@ -399,4 +399,22 @@ body {
 .contact-us__link:hover {
   color: black;
   text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  /* ================================================================= */
+  /* ============================= STATS ============================= */
+  /* ================================================================= */
+  .stats {
+    height: 30vh;
+    padding: 1em;
+  }
+  .stats__container {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .stat {
+    max-width: 15em;
+  }
 }
