@@ -322,8 +322,6 @@ body::-webkit-scrollbar-thumb {
 .FAQ__answer--show {
   max-height: 300px;
   margin-top: 1em;
-
-  overflow-y: auto;
 }
 .FAQ__link {
   transition: 0.2s color;
