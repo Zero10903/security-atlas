@@ -21,15 +21,15 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 5px; /* width of the entire scrollbar */
 }
 
-body::-webkit-scrollbar-track {
-  background: transparent; /* color of the tracking area */
+*::-webkit-scrollbar-track {
+  background: #eeeeee; /* color of the tracking area */
 }
 
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background-color: var(--color-terciario); /* color of the scroll thumb */
 }
 
