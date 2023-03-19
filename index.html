@@ -231,7 +231,42 @@
           </div>
         </div>
       </section>
-      <section class="contact-form" id="contact-form"></section>
+
+      <section class="contact-us container" id="contact-form">
+        <h3 class="contact-us__title">Contáctanos</h3>
+        <form class="formulario" action="./index.html">
+          <article class="formulario__name">
+            <label class="formulario__label" for="name">
+              Nombre: *
+              <input type="text" id="name" class="formulario__input" />
+            </label>
+            <label class="formulario__label" for="surname">
+              Apellido: *
+              <input type="text" id="surname" class="formulario__input" />
+            </label>
+          </article>
+
+          <label class="formulario__label" for="phone">
+            Número de teléfono: *
+            <input type="number" id="phone" class="formulario__input" />
+          </label>
+
+          <label class="formulario__label" for="comentario">
+            Comentario: *
+            <textarea
+              id="comentario"
+              class="formulario__input"
+              cols="30"
+              rows="5"
+              required
+            ></textarea>
+          </label>
+          <p class="formulario__required-msg">
+            Las areas marcadas con * son obligatorias
+          </p>
+          <button class="btn formulario__btn">Enviar</button>
+        </form>
+      </section>
     </main>
 
     <footer>
