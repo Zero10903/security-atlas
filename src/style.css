@@ -317,7 +317,7 @@ body {
   transition: 0.3s all;
 }
 .FAQ__answer--show {
-  height: 150px;
+  height: 180px;
   margin-top: 1em;
 
   overflow-y: auto;
