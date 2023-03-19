@@ -21,15 +21,15 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-*::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 5px; /* width of the entire scrollbar */
 }
 
-*::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: #cccccc; /* color of the tracking area */
 }
 
-*::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: var(--color-terciario); /* color of the scroll thumb */
 }
 
@@ -404,6 +404,10 @@ body {
   text-decoration: underline;
 }
 
+/* ! ========================================================================================= ! */
+/* ! ==================================== MEDIA QUERY 768 ==================================== ! */
+/* ! ========================================================================================= ! */
+
 @media (min-width: 768px) {
   .container {
     margin: 0px 25px;
@@ -433,6 +437,10 @@ body {
     justify-content: space-around;
   }
 }
+
+/* ! ========================================================================================== ! */
+/* ! ==================================== MEDIA QUERY 1024 ==================================== ! */
+/* ! ========================================================================================== ! */
 
 @media (min-width: 1024px) {
   .container {
