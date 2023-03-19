@@ -9,6 +9,7 @@
   --bg-light: #f0f0f0;
   --bg-dark: #141414;
   --bg-blur: #ffffff66;
+  --btn-radius: 0.5em;
 
   /* ! Tipografías */
   --tipo-principal: 'Taviraj', serif; /* ? Tipografía para el contenido */
@@ -294,6 +295,9 @@ body {
 
   padding-bottom: 0.5em;
 }
+.FAQ__text {
+  margin-bottom: 1em;
+}
 .FAQ__answer {
   height: 0px;
 
@@ -302,11 +306,40 @@ body {
   transition: 0.3s height;
 }
 .FAQ__answer--show {
-  height: 200px;
-  padding-top: 1em;
+  height: 130px;
+  margin-top: 1em;
 
   overflow-y: auto;
 }
-.FAQ__btn {
-  padding: 1em 0.5em 0em;
+.FAQ__link {
+  transition: 0.2s color;
 }
+.FAQ__link:hover {
+  color: var(--color-primario);
+  text-decoration: underline;
+}
+.FAQ__btn {
+  padding: 0.3em;
+
+  color: white;
+  background-color: var(--color-terciario);
+
+  /* border: 0.1px solid var(--color-secundario); */
+  border-radius: var(--btn-radius);
+
+  box-shadow: 0 0 0.12em var(--color-secundario);
+}
+.FAQ__btn:hover {
+  color: black;
+  background-color: var(--color-secundario);
+}
+/*
+  Además, como <span class="objAcentuado">beneficio extra</span>, si
+              devolves un producto defectuoso o que lo hayas usado y se haya
+              dañado con el tiempo, te devolvemos el 60% de su coste actual.
+              Nosotros los repararemos o reutilizaremos las piezas sanas para
+              crear mejores artículos.
+              <span class="objAcentuado">
+                Security Atlas promueve el cuidado ecológico </span
+              >.
+*/
