@@ -57,6 +57,7 @@ body {
 /* ============================================================ */
 
 .menu {
+  height: 5em;
   padding: 1em 0.5em;
 
   position: sticky;
@@ -67,6 +68,7 @@ body {
 
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
   align-items: center;
 }
 .menu__container {
@@ -423,9 +425,9 @@ body {
     max-width: 15em;
   }
 
-  /* ================================================================= */
+  /* =============================================================== */
   /* ============================= FAQ ============================= */
-  /* ================================================================= */
+  /* =============================================================== */
 
   .FAQ__answer--show {
     height: 140px;
@@ -439,5 +441,29 @@ body {
 @media (min-width: 1024px) {
   .container {
     margin: 0px 50px;
+  }
+
+  /* ================================================================ */
+  /* ============================= MENU ============================= */
+  /* ================================================================ */
+
+  .menu {
+    flex-flow: row nowrap;
+  }
+  .menu__btn {
+    display: none;
+  }
+  .menu__links {
+    padding: 0;
+    position: static;
+
+    flex-flow: row nowrap;
+    gap: 1.5em;
+
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .menu_link {
+    width: max-content;
   }
 }
