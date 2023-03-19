@@ -223,11 +223,11 @@ body {
 /* ============================= STATS ============================= */
 /* ================================================================= */
 .stats {
-  height: 60vh;
+  min-height: 60vh;
   width: 100%;
 
   margin-top: 2em;
-  padding: 3em;
+  padding: 5em;
 
   color: white;
   text-align: center;
@@ -242,7 +242,7 @@ body {
 
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
+  gap: 2em;
 }
 .stat__title {
   font-size: 1.4em;
@@ -251,4 +251,18 @@ body {
 .stat__text {
   font-size: 0.9em;
   font-style: italic;
+}
+
+/* ================================================================= */
+/* ============================= ABOUT ============================= */
+/* ================================================================= */
+.about-us {
+  padding-top: 6em;
+}
+.about-us__title {
+  padding-bottom: 0.5em;
+
+  text-align: center;
+
+  font-size: 1.4em;
 }
