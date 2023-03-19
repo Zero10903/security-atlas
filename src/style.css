@@ -303,10 +303,10 @@ body {
 
   overflow: hidden;
 
-  transition: 0.3s height;
+  transition: 0.3s all;
 }
 .FAQ__answer--show {
-  height: 130px;
+  height: 150px;
   margin-top: 1em;
 
   overflow-y: auto;
@@ -333,13 +333,3 @@ body {
   color: black;
   background-color: var(--color-secundario);
 }
-/*
-  Además, como <span class="objAcentuado">beneficio extra</span>, si
-              devolves un producto defectuoso o que lo hayas usado y se haya
-              dañado con el tiempo, te devolvemos el 60% de su coste actual.
-              Nosotros los repararemos o reutilizaremos las piezas sanas para
-              crear mejores artículos.
-              <span class="objAcentuado">
-                Security Atlas promueve el cuidado ecológico </span
-              >.
-*/
