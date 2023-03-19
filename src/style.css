@@ -71,7 +71,6 @@ body {
 }
 .menu__container {
   margin: 0px auto;
-  max-width: 1200px;
 }
 .menu__controls {
   width: 100%;
@@ -434,5 +433,11 @@ body {
   }
   .contact-us {
     justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin: 0px 50px;
   }
 }
