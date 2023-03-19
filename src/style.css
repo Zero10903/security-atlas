@@ -41,6 +41,8 @@ body {
   background-color: var(--color-terciario);
 
   border-radius: 0.5em;
+
+  transition: 0.3s all;
 }
 .btn:hover {
   color: black;
