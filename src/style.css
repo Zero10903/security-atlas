@@ -278,8 +278,7 @@ body {
   margin-bottom: 0.5em;
   padding: 2em 0.7em;
 
-  background-color: #dddddd;
-
+  border: 1px solid black;
   border-left: 5px solid var(--color-terciario);
   border-radius: 0.4em;
 }
