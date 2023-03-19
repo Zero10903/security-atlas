@@ -20,6 +20,18 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+body::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-terciario); /* color of the scroll thumb */
+}
+
 .container {
   margin: 0px 12px;
 }
