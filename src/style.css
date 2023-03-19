@@ -266,3 +266,47 @@ body {
 
   font-size: 1.4em;
 }
+
+/* =============================================================== */
+/* ============================= FAQ ============================= */
+/* =============================================================== */
+.FAQ {
+  padding-top: 6em;
+}
+.FAQ__container {
+  margin-bottom: 0.5em;
+  padding: 2em 0.7em;
+
+  background-color: #dddddd;
+
+  border-left: 5px solid var(--color-terciario);
+  border-radius: 0.4em;
+}
+.FAQ__title {
+  padding-bottom: 0.3em;
+
+  color: var(--color-terciario);
+
+  font-size: 1.3em;
+}
+.FAQ__title--main {
+  font-size: 1.5em;
+
+  padding-bottom: 0.5em;
+}
+.FAQ__answer {
+  height: 0px;
+
+  overflow: hidden;
+
+  transition: 0.3s height;
+}
+.FAQ__answer--show {
+  height: 200px;
+  padding-top: 1em;
+
+  overflow-y: auto;
+}
+.FAQ__btn {
+  padding: 1em 0.5em 0em;
+}
