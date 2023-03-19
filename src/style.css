@@ -18,6 +18,8 @@
 body {
   background-color: var(--bg-light);
 
+  overflow-x: hidden;
+
   text-rendering: optimizeLegibility;
 }
 
@@ -499,4 +501,20 @@ body::-webkit-scrollbar-thumb {
   .contact-us {
     align-items: center;
   }
+}
+
+.izquierda {
+  transform: translateX(-100px);
+}
+.derecha {
+  transform: translateX(100px);
+}
+.no-visible {
+  opacity: 0;
+  transition: 0.7s ease-in-out all;
+}
+.visible {
+  opacity: 1;
+
+  transform: translateX(0);
 }

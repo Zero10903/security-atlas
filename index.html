@@ -87,7 +87,7 @@
       </section>
 
       <section class="services container" id="services">
-        <div class="card">
+        <div class="card no-visible izquierda" id="card--c1">
           <p class="card__number">1</p>
           <h3 class="card__title">#1 Calidad</h3>
           <p class="card__text">
@@ -97,7 +97,7 @@
           </p>
         </div>
 
-        <div class="card">
+        <div class="card no-visible derecha" id="card--c2">
           <p class="card__number">2</p>
           <h3 class="card__title">#2 Envíos</h3>
           <p class="card__text">
@@ -107,7 +107,7 @@
           </p>
         </div>
 
-        <div class="card">
+        <div class="card no-visible izquierda" id="card--c3">
           <p class="card__number">3</p>
           <h3 class="card__title">#3 Efectividad</h3>
           <p class="card__text">
@@ -118,7 +118,7 @@
           </p>
         </div>
 
-        <div class="card" id="beneficio-devolucion">
+        <div class="card no-visible derecha" id="card--c4">
           <p class="card__number">4</p>
           <h3 class="card__title">#4 Beneficio por devolución</h3>
           <p class="card__text">
@@ -174,7 +174,7 @@
       <section class="FAQ container" id="FAQ">
         <h3 class="FAQ__title FAQ__title--main">Preguntas frecuentes</h3>
 
-        <div class="FAQ__container">
+        <div class="FAQ__container no-visible izquierda" id="FAQ--n1">
           <div class="FAQ__question">
             <h4 class="FAQ__title">Retraso del envío</h4>
             <p class="FAQ__text">¿Cuánto tardan en llegar los productos?</p>
@@ -192,7 +192,7 @@
           </div>
         </div>
 
-        <div class="FAQ__container">
+        <div class="FAQ__container no-visible derecha" id="FAQ--n2">
           <div class="FAQ__question">
             <h4 class="FAQ__title">Garantía</h4>
             <p class="FAQ__text">
@@ -202,21 +202,19 @@
               Ver respuesta
             </button>
           </div>
-          <div class="FAQ__answer" id="FAQ__answer--n2">
+          <div class="FAQ__answer izquierda" id="FAQ__answer--n2">
             <h4 class="FAQ__title">Respuesta</h4>
             <p class="FAQ__text">
               Si. Dependiendo del artículo, el tiempo de la misma puede variar.
               Si querés saber más sobre los
               <span class="objAcentuado"> beneficios extras</span>
               por devolver uno de nuestros productos, haz click
-              <a href="#beneficio-devolucion" class="FAQ__link objAcentuado"
-                >Aquí</a
-              >.
+              <a href="#card--c4" class="FAQ__link objAcentuado">Aquí</a>.
             </p>
           </div>
         </div>
 
-        <div class="FAQ__container">
+        <div class="FAQ__container no-visible" id="FAQ--n3">
           <div class="FAQ__question">
             <h4 class="FAQ__title">Instalación y mantenimiento</h4>
             <p class="FAQ__text">
