@@ -18,7 +18,7 @@
 body {
   background-color: var(--bg-light);
 
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 
   text-rendering: optimizeLegibility;
 }
@@ -504,10 +504,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .izquierda {
-  transform: translateX(-100px);
+  transform: translateX(-10px);
 }
 .derecha {
-  transform: translateX(100px);
+  transform: translateX(10px);
 }
 .no-visible {
   opacity: 0;
