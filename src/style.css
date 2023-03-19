@@ -9,6 +9,7 @@
   --bg-light: #f0f0f0;
   --bg-dark: #141414;
   --bg-blur: #ffffff66;
+  --btn-radius: 0.5em;
 
   /* ! Tipografías */
   --tipo-principal: 'Taviraj', serif; /* ? Tipografía para el contenido */
@@ -277,4 +278,70 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 
   font-size: 1.4em;
+}
+
+/* =============================================================== */
+/* ============================= FAQ ============================= */
+/* =============================================================== */
+.FAQ {
+  padding-top: 6em;
+}
+.FAQ__container {
+  margin-bottom: 0.5em;
+  padding: 2em 0.7em;
+
+  background-color: #dddddd;
+
+  border-left: 5px solid var(--color-terciario);
+  border-radius: 0.4em;
+}
+.FAQ__title {
+  padding-bottom: 0.3em;
+
+  color: var(--color-terciario);
+
+  font-size: 1.3em;
+}
+.FAQ__title--main {
+  font-size: 1.5em;
+
+  padding-bottom: 0.5em;
+}
+.FAQ__text {
+  margin-bottom: 1em;
+}
+.FAQ__answer {
+  height: 0px;
+
+  overflow: hidden;
+
+  transition: 0.3s all;
+}
+.FAQ__answer--show {
+  height: 150px;
+  margin-top: 1em;
+
+  overflow-y: auto;
+}
+.FAQ__link {
+  transition: 0.2s color;
+}
+.FAQ__link:hover {
+  color: var(--color-primario);
+  text-decoration: underline;
+}
+.FAQ__btn {
+  padding: 0.3em;
+
+  color: white;
+  background-color: var(--color-terciario);
+
+  /* border: 0.1px solid var(--color-secundario); */
+  border-radius: var(--btn-radius);
+
+  box-shadow: 0 0 0.12em var(--color-secundario);
+}
+.FAQ__btn:hover {
+  color: black;
+  background-color: var(--color-secundario);
 }
