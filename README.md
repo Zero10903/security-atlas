@@ -1,6 +1,7 @@
-# Security Atlas
-
-![](https://i.pinimg.com/564x/a2/c7/1b/a2c71baf2c32b8eb0e7b605218855e4e.jpg)
+<div align="center">
+    <h1>Security Atlas</h1>
+    <img src="https://i.pinimg.com/564x/a2/c7/1b/a2c71baf2c32b8eb0e7b605218855e4e.jpg" width="100%"/>
+</div>
 
 ## ¿De qué se trata?
 
