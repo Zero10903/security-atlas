@@ -8,6 +8,10 @@
 La idea de este proyecto es crear una _Landing Page_ con un diseño atractivo, minimalista y funcional.
 Esta web tendrá la temática de una empresa de seguridad **ficticia** cuyo objetivo es vender sus productos y exportarlos mundialmente.
 
+### Previsualización de la web
+
+Aquí tienes una [Demo][demo] para ver el resultado final de este proyecto.
+
 ## ¿Qué tecnologías son usadas en este proyecto?
 
 El desafío en este caso es utilizar lo más básico de todo, por lo tanto, sólo se utilizan las siguientes tecnologías:
@@ -39,3 +43,4 @@ _MIT License_
 [insta]: https://www.instagram.com/_moonlight.zero_ 'Instagram'
 [gmail]: mailto:sam.alejandro.bustos@gmail.com?Subject=Contacted-from-github 'Gmail'
 [interobserver]: https://www.youtube.com/watch?v=cVsqA4NhDoI&t=357s 'Tutorial de Intersection Observer'
+[demo]: https://zero10903.github.io/security-atlas/ 'Demo'
