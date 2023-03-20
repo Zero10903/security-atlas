@@ -1,6 +1,6 @@
 # Security Atlas
 
-![](https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)
+![](https://i.pinimg.com/564x/a2/c7/1b/a2c71baf2c32b8eb0e7b605218855e4e.jpg)
 
 ## ¿De qué se trata?
 
@@ -16,6 +16,10 @@ El desafío en este caso es utilizar lo más básico de todo, por lo tanto, sól
 - JavaScript
 - Intersection Observer API (usada para las animaciones de algunas secciones)
 
+### Intersection Observer API
+
+[Tutorial de Intersection Observer][interobserver] - Aquí un tutorial de cómo usar esta API por si te interesa
+
 ## Cómo aportar a este proyecto
 
 - Crea un fork
@@ -25,8 +29,7 @@ El desafío en este caso es utilizar lo más básico de todo, por lo tanto, sól
 
 ## Contáctame
 
-[Instagram][insta]
-[Mail][gmail]
+[Instagram][insta] | [Gmail][gmail]
 
 ## Licencia
 
@@ -34,3 +37,4 @@ _MIT License_
 
 [insta]: https://www.instagram.com/_moonlight.zero_ 'Instagram'
 [gmail]: mailto:sam.alejandro.bustos@gmail.com?Subject=Contacted-from-github 'Gmail'
+[interobserver]: https://www.youtube.com/watch?v=cVsqA4NhDoI&t=357s 'Tutorial de Intersection Observer'
