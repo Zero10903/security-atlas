@@ -14,6 +14,7 @@ El desafío en este caso es utilizar lo más básico de todo, por lo tanto, sól
 - HTML
 - CSS
 - JavaScript
+- Intersection Observer API (usada para las animaciones de algunas secciones)
 
 ## Cómo aportar a este proyecto
 
