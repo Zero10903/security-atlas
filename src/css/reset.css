@@ -118,14 +118,14 @@ q:after {
 }
 
 /* Configuramos el texto que seleccionamos */
-::-moz-selection {
+/* ::-moz-selection {
   background-color: var(--color-primario);
   color: var(--color-secundario);
 }
 ::selection {
   background-color: var(--color-primario);
   color: var(--color-secundario);
-}
+} */
 
 /* Nivelamos problemas de tipografías y colocación de formularios */
 form,
